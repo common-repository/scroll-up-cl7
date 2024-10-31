@@ -1,0 +1,28 @@
+#scrollUp {
+	color: #fff;
+	background: #52bed9;
+	right: 20px;
+	bottom: 30px;
+	width: 50px;
+	text-decoration: none;
+	font-size: 30px;
+	border-radius: 50%;
+	height: 50px;
+	text-align: center;
+	line-height: 40px;
+}
+#scrollUp > i.fa.fa-level-up {
+	position: relative;
+}
+#scrollUp > i.fa.fa-level-up::after {
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;
+	border-bottom: 25px solid #52bed9;
+	left: -11px;
+	top: -20px;
+	z-index: -1;
+}
